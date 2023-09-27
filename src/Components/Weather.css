@@ -1,0 +1,88 @@
+.container{
+    width:500px;
+    height: 80vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 75px;
+    margin: auto;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    color: azure;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    gap: 14px;
+}
+
+.top-bar input{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    text-align: center;
+    background-color: #ebfffc;
+    outline: none;
+    font-size: larger;
+}
+
+.searchicon{
+    align-items: center;
+    display: flex;
+    width: 65px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ebfffc;
+    outline: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+}
+
+.data-container{
+    margin-top: 50px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.weather-temp{
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.location{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: azure;
+}
+
+.text{
+    text-align: center;
+}
